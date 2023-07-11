@@ -8,6 +8,6 @@ setup(
     packages=find_packages(include=["siibra_explorer_toolsuite"]),
     python_requires=">=3.6",
     install_requires=[
-        "siibra>=0.4a35,<=0.4a47"
+        "siibra>=0.4a35,<=0.4a59"
     ]
 )

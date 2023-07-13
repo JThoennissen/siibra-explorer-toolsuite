@@ -12,8 +12,6 @@ import numpy as np
 min_int32=-2_147_483_648
 max_int32=2_147_483_647
 
-BIGBRAIN = siibra.spaces['bigbrain']
-
 if not ("0.4a35" <= siibra.__version__ <= "0.4a59"):
     print(f"Warning: siibra.__version__ {siibra.__version__} siibra>=0.4a35,<=0.4a59, this module may not work properly.")
 
